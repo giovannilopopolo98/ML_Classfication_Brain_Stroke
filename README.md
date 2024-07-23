@@ -11,4 +11,11 @@ Dask can run on a cluster of machines to process data efficiently as it uses all
 Dask supports the Pandas dataframe and Numpy array data structures to analyze large datasets. Basically, Dask lets you scale pandas and numpy with minimum changes in your code format.
 
 
+
 ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2018/07/dask-1.png)
+Dask has a central task scheduler and a set of workers. The scheduler assigns tasks to the workers. Each worker is assigned a number of cores on which it can perform computations. 
+The workers provide two functions:
+compute tasks as assigned by the scheduler
+serve results to other workers on demand
+Below is an example that explains how a conversation between a scheduler and workers looks like (this has been given by one of the developers of Dask, Matthew Rocklin):
+The central task scheduler sends jobs (python functions) to lots of worker processes, either on the same machine or on a cluster
