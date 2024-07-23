@@ -9,3 +9,6 @@ In order to use lesser memory during computations, Dask stores the complete data
 During the processing, the intermediate values generated (if any) are discarded as soon as possible, to save the memory consumption.
 Dask can run on a cluster of machines to process data efficiently as it uses all the cores of the connected machines. One interesting fact here is that it is not necessary that all machines should have the same number of cores. If one system has 2 cores while the other has 4 cores, Dask can handle these variations internally.
 Dask supports the Pandas dataframe and Numpy array data structures to analyze large datasets. Basically, Dask lets you scale pandas and numpy with minimum changes in your code format.
+
+
+![](https://cdn.analyticsvidhya.com/wp-content/uploads/2018/07/dask-1.png)
