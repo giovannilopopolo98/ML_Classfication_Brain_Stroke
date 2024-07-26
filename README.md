@@ -3,6 +3,10 @@ The initial data manipulation is done with a Python tool called Pandas, along wi
 
 Pandas and Numpy, have certain limitations when efficiently handling large datasets. While these libraries are undeniably powerful, their computational efficiency can be challenged, particularly when manipulating gigabytes of data. 
 
+To overcome this obstacle, one can use Dask Python, a tool that scales data workflows perfectly, providing a flexible, parallel processing framework to address the challenges posed by a large dataset.
+
+In our case, the dataset is not very large, but we will still exploit Dask to study the different efficiencies between the 2 tools
+
 ## Dask
 Dask is popularly known as a ‘parallel computing’ python library that has been designed to run across multiple systems. 
 What is parallel computing?
