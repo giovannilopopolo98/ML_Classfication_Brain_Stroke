@@ -1,4 +1,7 @@
 # ML_Classfication_Brain_Stroke
+The iniitial manipulation of the data it is done with a strument of Python call Pandas, with Numpy.
+
+Pandas and Numpy, have certain limitations when efficiently handling large datasets. While these libraries are undeniably powerful, their computational efficiency can be challenged, particularly when manipulating gigabytes of data. 
 
 ## Dask
 Dask is popularly known as a ‘parallel computing’ python library that has been designed to run across multiple systems. 
